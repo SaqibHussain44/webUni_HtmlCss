@@ -1,0 +1,339 @@
+@font-face{
+	font-family: ubuntu-L;
+	src: url("../fonts/ubuntu/Ubuntu-L.ttf");
+}
+h1,h2,p,img{
+	margin: 0; padding: 0; border: 0;
+}
+body{
+	margin: 0; padding: 0; border: 0;
+	font-family: ubuntu-L;
+}
+header{	
+	height: 80px;
+	margin: 0; padding: 0;
+}
+footer{
+	background: #000;
+	clear: both;
+	margin: 0; padding: 0;
+}
+footer div{ color: white; }
+.inline{ display: inline;}
+.clearfix{ clear: both; }
+.centent-width{width:auto; padding: 0; margin: 0; border: 0;}
+#logo{
+	margin:0; padding:0; border:0;
+	background: url("../graphics/logo-sm.png") no-repeat;
+	height: 55px; width: 150px;	
+	text-indent: -9999px;
+}
+#googleicon{
+	border-radius: 50%; margin-bottom: 2px;
+}
+.sociallogos:hover{
+	transform: scale(1.2);
+}
+#headerlinks a{
+	color: #000; text-decoration: none;
+}
+#headerlinks a:hover{color: #666;}
+#headerlinks{position: relative; margin-left: 180px;margin-top: -50px}
+#logoheading{ width: 230px; }
+#covertext{margin-top: 20px; text-align: center; color: white;
+	text-shadow: 0px 10px 8px rgba(0,0,0,0.7) }
+#covertext h2{padding: 5px; font-size: 24px;}
+#covertext h3{	padding: 5px; font-size: 14px;}
+.floatright{float: right;}
+.floatright-lg{float: none;}
+#sitemap{color: #fff; text-decoration: none;}
+#sitemap:hover{text-decoration: underline;}
+section#covertext .explorebutton{
+	margin: 20px 0px 0px 5px;
+	padding: 5px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+	width: 100px; height: 50px;
+	color: #000;
+	font-size: 16px;
+	background-color: #666;
+	border-radius: 40px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+}
+section#covertext .explorebutton:hover{
+	color: #fff; transform: scale(1.2);
+	background-color: #000;
+}
+#navbtn{
+	border: none;
+	position: fixed;
+	border-radius: 120px;
+}
+#nav-mini{ position: relative; display: inline-block; }
+#nav-contentmini{
+	display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#nav-contentmini a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#nav-contentmini a:hover {background-color: grey;}
+#nav-mini:hover #nav-contentmini {display: block; margin-top: 35px;}
+nav ul{
+	margin:0; padding:0; border:0;
+	background: #000;
+	width: 100%;
+}
+nav ul li{
+	height: 50px;
+	line-height: 50px;
+	list-style: none;
+	display: inline-block;
+}
+#nav-desktop{
+	width: 100%;
+	display: none;
+}
+#footerdiv{
+	background: #000;
+	height: auto;
+}
+#nav-mini{display: block;}
+.two-col{text-align: center; width: 100%;}
+.two-col#foot1{height: auto; background-color: #000;}
+.two-col#foot2{height: auto; background-color: #000;}
+div#foot1 h2{padding: 20px;}
+div#foot2 h2{padding: 20px;}
+section.two-col h1{
+	text-align: left;
+	border-bottom: 2px solid black;
+}
+.hidden-md{display: none;}
+.hidden-lg{display: none;}
+main.content-width h1,p{padding: 10px;}
+div.content-width h1,p{padding: 10px;}
+#blackbg{background: #000;}
+nav ul li.link1:hover{
+	background-color: #330000;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link2:hover{
+	background-color: #4D4949;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link3:hover{
+	background-color: #00994c;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link4:hover{
+	background-color: brown;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link5:hover{
+	background-color: #001933;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link6:hover{
+	background-color: #660066;
+	transform: scale(1.1); 
+	font-weight: bolder;
+}
+nav ul li.link7:hover{
+	background-color: #663300;
+	transform: scale(1.1);
+	font-weight: bolder;
+}
+nav ul li a{
+	font-family: ubuntu-L;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.cover{
+	width:auto; height: 269px;
+	background: url("../graphics/cover-sm.png") no-repeat;
+}
+table#popchart{
+	width: auto;
+	height: 600px;
+	margin-top: 10px;
+	margin:auto;
+	border: 2px solid black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+table#popchart tr td{
+	border: 2px solid black;
+	text-align: center;
+}
+.hotelimages{
+	font-weight: bold;
+	text-align: center;
+}
+main div p{
+	padding: 10px;
+}
+.three-col{
+	width: 100%;
+}
+.hotelimages img{
+	border-radius: 50%;
+}
+.boldtext{
+	font-weight: bold;
+}
+main{
+	width:auto;
+}
+.personalityimage{height: 200px; width: 320px;}
+#personalitymargin img{
+	padding: 20px;
+	margin-left: 10px;
+}
+#personalitymargin h1,p{
+	padding: 10px;
+}
+h1#personalityheading{
+	margin-top: 30px;
+}
+section.two-col#personalities{
+	box-sizing: border-box;
+	padding: 10px;
+}
+div#personalitydivs a{
+	text-decoration: none;
+}
+div#personalitydivs a:hover{
+	text-decoration: underline;
+}
+input#textbox{
+	margin:5px;
+	padding: 2px;
+	width: 200px;
+	display: inline-block;
+}
+#birthtextbox{
+	margin:3px;
+	padding: 3px;
+	width: 70px;
+	display: inline-block;
+}
+input#submitbutton{
+	background-color: black;
+	color: white;
+	width: 80px;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 8px;
+}
+#alreadybutton{
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 10px;
+}
+#logindiv{ margin-top: 20px;height: 400px;}
+#loginbutton{
+	background-color: black;
+	color: white;
+	width: 80px;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 8px;
+	margin-left: 210px;
+}
+
+
+@media(min-width: 600px){
+	.three-col{width: 50%; float: left;}
+	.personalityimage{height: 400px; width: 600px;}
+	.floatright-lg{float: right;}
+}
+@media(min-width: 768px){
+	#logodiv{
+		width: 230px;
+	}
+	#logo{
+		height: 72px; width: 230px;
+		background: url("../graphics/logo.png") no-repeat;
+	}
+	#headerlinks{margin-left: 620px;margin-top: -70px}
+	#nav-desktop{
+		display: block;
+	}
+	#nav-mini{
+		display: none;
+	}
+	.cover{
+		width:auto; height: 700px;
+		background: url("../graphics/cover.jpg") no-repeat;
+	}
+	.two-col{width: 50%; float: left;  text-align: center;}
+	.two-col#foot1{ height: 200px;  margin-top: 20px;}
+	.two-col#foot2{ height: 200px;  margin-top: 20px;}
+	#footerdiv{
+		background: black;
+		height: 220px;
+		width: 100%;
+	}
+	.three-col{width: 33%;float: left;}
+	.hidden-md{display: block;}
+	#personalitymargin img{	margin-left: 60px;}
+	#covertext{margin-top: 150px;}
+	#covertext h2{padding: 10px; font-size: 44px;}
+	#covertext h3{padding: 10px; font-size: 24px;}
+	section#covertext .explorebutton{
+		margin: 40px 0px 0px 10px;
+		padding: 10px;
+		width: 200px; height: 80px;
+		color: #000;
+		font-size: 30px;
+	}
+	input#textbox{
+		margin:10px;
+		padding: 5px;
+		width: 300px;
+	}
+	#birthtextbox{
+		margin:5px;
+		padding: 5px;
+		width: 90px;
+	}
+	input#submitbutton{
+		width: 100px;
+		padding: 10px;
+	}
+	#alreadybutton{
+		margin-bottom: 10px;
+		margin-left: 150px;
+		border-radius: 10px;
+		padding: 10px;
+	}
+	#logindiv{ margin-top: 40px; height: 600px;}
+	#loginbutton{
+		width: 100px;
+		margin-left: 305px;
+	}
+}
+@media(min-width: 1080px){
+	.content-width{ width: 980px; margin: 0 auto;}
+		.hidden-lg{display: block;}
+		#navmargin{margin-left: 220px;}
+		nav ul li a{padding: 20px; font-size: 20px;}
+		#headerlinks{margin-left: 820px;margin-top: -70px}
+}
